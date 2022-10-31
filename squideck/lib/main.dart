@@ -14,23 +14,19 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       title: 'SquidecK',
-      home: Home(title: 'Flutter Demo Home Page'),
+      home: Home(),
     );
   }
 }
 
 class Home extends StatefulWidget {
-  const Home({super.key, required this.title});
-
-  final String title;
+  const Home({super.key, });
 
   @override
   State<Home> createState() => _HomeState();
 }
 
 class _HomeState extends State<Home> {
-
-
   @override
   Widget build(BuildContext context) {
 
@@ -41,6 +37,7 @@ class _HomeState extends State<Home> {
           style: TextStyle(color: CustomTheme.instance.letter)
         ),
         backgroundColor: CustomTheme.instance.appBar,
+        
       ),
       body: Center(
 
