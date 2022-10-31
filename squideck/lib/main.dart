@@ -60,12 +60,46 @@ class _HomeState extends State<Home> {
           }
         )
       ),
-      body: Center(
-        child: Container(
-          color: CustomTheme.instance.containerBgColor,
-          child: SingleChildScrollView(
+      body: Container(
+        color: CustomTheme.instance.containerBgColor,
+        child: SingleChildScrollView(
+          child: Container(
+            color: CustomTheme.instance.containerBgColor,
             child: Column(
+              mainAxisAlignment: MainAxisAlignment.center,
               children: [
+                Container(
+                  height: 200,
+                  width: double.infinity,
+                  color: Colors.black,
+                  margin: const EdgeInsets.symmetric(horizontal: 20.0),
+                  child: Column(
+                    children: [
+                      Text(
+                        'When my muscles say "No", I say "Yes".',
+                        style: TextStyle(
+                          color: CustomTheme.instance.letter
+                        ),
+                      )
+                    ],
+                  ),
+                ),
+                Container(
+                  height: 200,
+                  width: double.infinity,
+                  color: Colors.black,
+                  margin: const EdgeInsets.symmetric(horizontal: 20.0),
+                  child: Column(
+                    children: [
+                      Text(
+                        'When my muscles say "No", I say "Yes".',
+                        style: TextStyle(
+                          color: CustomTheme.instance.letter
+                        ),
+                      )
+                    ],
+                  ),
+                ),
                 Container(
                   height: 200,
                   width: double.infinity,
