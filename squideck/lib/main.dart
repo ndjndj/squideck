@@ -72,7 +72,7 @@ class _HomeState extends State<Home> {
                   height: 200,
                   width: double.infinity,
                   color: Colors.black,
-                  margin: const EdgeInsets.symmetric(horizontal: 20.0),
+                  margin: const EdgeInsets.symmetric(horizontal: 20.0, vertical: 100),
                   child: Column(
                     children: [
                       Text(
@@ -88,7 +88,7 @@ class _HomeState extends State<Home> {
                   height: 200,
                   width: double.infinity,
                   color: Colors.black,
-                  margin: const EdgeInsets.symmetric(horizontal: 20.0),
+                  margin: const EdgeInsets.symmetric(horizontal: 20.0, vertical: 100),
                   child: Column(
                     children: [
                       Text(
@@ -104,7 +104,7 @@ class _HomeState extends State<Home> {
                   height: 200,
                   width: double.infinity,
                   color: Colors.black,
-                  margin: const EdgeInsets.symmetric(horizontal: 20.0),
+                  margin: const EdgeInsets.symmetric(horizontal: 20.0, vertical: 100),
                   child: Column(
                     children: [
                       Text(
