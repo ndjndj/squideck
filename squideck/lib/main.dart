@@ -39,11 +39,15 @@ class _HomeState extends State<Home> {
         ),
         backgroundColor: CustomTheme.instance.appBar,
         leading: IconButton(
-          icon: SvgPicture.asset(
-            'assets/squid.svg',
-            semanticsLabel: 'squid',
-            width: 50,
-            height: 50,
+          icon: CircleAvatar(
+            child: SvgPicture.asset(
+              'assets/squid.svg',
+              semanticsLabel: 'squid',
+              width: 1200,
+              height: 1200,
+            ),
+            radius: 1000,
+            backgroundColor: Colors.white,
           ),
           onPressed: (){return;},
         ),
