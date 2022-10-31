@@ -69,9 +69,12 @@ class _HomeState extends State<Home> {
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 Container(
-                  height: 200,
+                  height: 1200,
                   width: double.infinity,
-                  color: Colors.black,
+                  decoration: const BoxDecoration(
+                    borderRadius: BorderRadius.all(Radius.circular(10)),
+                    color: Colors.black,
+                  ),
                   margin: const EdgeInsets.symmetric(horizontal: 20.0, vertical: 100),
                   child: Column(
                     children: [
@@ -87,7 +90,10 @@ class _HomeState extends State<Home> {
                 Container(
                   height: 200,
                   width: double.infinity,
-                  color: Colors.black,
+                  decoration: const BoxDecoration(
+                    borderRadius: BorderRadius.all(Radius.circular(10)),
+                    color: Colors.black,
+                  ),
                   margin: const EdgeInsets.symmetric(horizontal: 20.0, vertical: 100),
                   child: Column(
                     children: [
@@ -103,7 +109,10 @@ class _HomeState extends State<Home> {
                 Container(
                   height: 200,
                   width: double.infinity,
-                  color: Colors.black,
+                  decoration: const BoxDecoration(
+                    borderRadius: BorderRadius.all(Radius.circular(10)),
+                    color: Colors.black,
+                  ),
                   margin: const EdgeInsets.symmetric(horizontal: 20.0, vertical: 100),
                   child: Column(
                     children: [
