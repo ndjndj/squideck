@@ -61,7 +61,6 @@ class _HomeState extends State<Home> {
         )
       ),
       body: Center(
-
         child: Container(
           color: CustomTheme.instance.containerBgColor,
           child: SingleChildScrollView(
@@ -69,7 +68,9 @@ class _HomeState extends State<Home> {
               children: [
                 Container(
                   height: 200,
+                  width: double.infinity,
                   color: Colors.black,
+                  margin: const EdgeInsets.symmetric(horizontal: 20.0),
                   child: Column(
                     children: [
                       Text(
