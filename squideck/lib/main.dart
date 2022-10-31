@@ -1,6 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_svg/flutter_svg.dart';
-
 import 'package:squideck/constants/custom_theme.dart';
 
 void main() {
@@ -39,14 +37,8 @@ class _HomeState extends State<Home> {
         ),
         backgroundColor: CustomTheme.instance.appBar,
         leading: IconButton(
-          icon: CircleAvatar(
-            child: SvgPicture.asset(
-              'assets/squid.svg',
-              semanticsLabel: 'squid',
-              width: 1200,
-              height: 1200,
-            ),
-            radius: 1000,
+          icon: const CircleAvatar(
+            backgroundImage: NetworkImage('assets/squid.png'),
             backgroundColor: Colors.white,
           ),
           onPressed: (){return;},
