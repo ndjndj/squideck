@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_svg/flutter_svg.dart';
 
 import 'package:squideck/constants/custom_theme.dart';
 
@@ -37,7 +38,15 @@ class _HomeState extends State<Home> {
           style: TextStyle(color: CustomTheme.instance.letter)
         ),
         backgroundColor: CustomTheme.instance.appBar,
-        
+        leading: IconButton(
+          icon: SvgPicture.asset(
+            'assetes/squid.svg',
+            semanticsLabel: 'squid',
+            width: 50,
+            height: 50,
+          ),
+          onPressed: (){return;},
+        ),
       ),
       body: Center(
 
