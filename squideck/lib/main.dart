@@ -26,6 +26,7 @@ class Home extends StatefulWidget {
 }
 
 class _HomeState extends State<Home> {
+  final List<String> _appbarItem = ['Blog', 'Products', 'About'];
   @override
   Widget build(BuildContext context) {
 
@@ -43,6 +44,21 @@ class _HomeState extends State<Home> {
           ),
           onPressed: (){return;},
         ),
+        actions: List.generate(_appbarItem.length,
+          (index) {
+            return Center(
+              child: Padding(
+                padding: const EdgeInsets.all(8.0),
+                child: Text(
+                  _appbarItem[index],
+                  style: const TextStyle(
+                    fontSize: 20,
+                  ),
+                ),
+              )
+            );
+          }
+        )
       ),
       body: Center(
 
