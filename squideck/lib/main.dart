@@ -36,11 +36,14 @@ class _HomeState extends State<Home> {
 
     return Scaffold(
       appBar: AppBar(
-        title: Text('SquidecK'),
+        title: Text(
+          'SquidecK',
+          style: TextStyle(color: CustomTheme.instance.letter)
+        ),
         backgroundColor: CustomTheme.instance.appBar,
       ),
       body: Center(
-        
+
         child: Column(
 
           mainAxisAlignment: MainAxisAlignment.center,
