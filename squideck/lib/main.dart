@@ -62,13 +62,29 @@ class _HomeState extends State<Home> {
       ),
       body: Center(
 
-        child: Column(
-
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: <Widget>[
-
-          ],
-        ),
+        child: Container(
+          color: CustomTheme.instance.containerBgColor,
+          child: SingleChildScrollView(
+            child: Column(
+              children: [
+                Container(
+                  height: 200,
+                  color: Colors.black,
+                  child: Column(
+                    children: [
+                      Text(
+                        'When my muscles say "No", I say "Yes".',
+                        style: TextStyle(
+                          color: CustomTheme.instance.letter
+                        ),
+                      )
+                    ],
+                  ),
+                )
+              ]
+            ),
+          ),
+        )
       ),
 
     );
