@@ -40,7 +40,7 @@ class _HomeState extends State<Home> {
         backgroundColor: CustomTheme.instance.appBar,
         leading: IconButton(
           icon: SvgPicture.asset(
-            'assetes/squid.svg',
+            'assets/squid.svg',
             semanticsLabel: 'squid',
             width: 50,
             height: 50,
