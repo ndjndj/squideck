@@ -56,12 +56,16 @@ class _HomeState extends State<Home> {
             return Center(
               child: Padding(
                 padding: const EdgeInsets.all(8.0),
-                child: Text(
-                  _appbarItem[index],
-                  style: const TextStyle(
-                    fontSize: 20,
+                child: GestureDetector(
+                  onTap: () => Navigator.pushNamed(context, _appbarItem[index]),
+                  child: Text(
+                    _appbarItem[index],
+                    style: const TextStyle(
+                      fontSize: 20,
+                    ),
                   ),
-                ),
+                )
+
               )
             );
           }
