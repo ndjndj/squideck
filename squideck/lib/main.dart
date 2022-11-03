@@ -14,7 +14,6 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'SquidecK',
-      home: Home(),
       routes: {
         '/': (context) => Home(),
         '/blog': (context) => Blog(),
