@@ -14,6 +14,12 @@ class MyApp extends StatelessWidget {
     return const MaterialApp(
       title: 'SquidecK',
       home: Home(),
+      routes: {
+        '/': (context) => Home(),
+        '/blog': (context) => Home(),
+        '/products': (context) => Home(),
+        'about': (context) => Home(),
+      }
     );
   }
 }
