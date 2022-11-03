@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
       home: Home(),
       routes: {
         '/': (context) => Home(),
-        '/blog': (context) => Home(),
+        '/blog': (context) => Blog(),
         '/products': (context) => Home(),
         'about': (context) => Home(),
       }
