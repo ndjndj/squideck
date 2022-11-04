@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:squideck/constants/custom_theme.dart';
 import 'package:squideck/constants/page_path.dart';
+import 'package:squideck/constants/route.dart';
 
 void main() {
   runApp(const MyApp());
@@ -14,12 +15,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'SquidecK',
-      routes: {
-        '/': (context) => Home(),
-        '/blog': (context) => Blog(),
-        '/products': (context) => Home(),
-        'about': (context) => Home(),
-      }
+      onGenerateRoute: RouteGenerator.generateRoute,
     );
   }
 }
