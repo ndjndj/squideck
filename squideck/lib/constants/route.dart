@@ -17,14 +17,6 @@ class RouteGenerator {
         return MaterialPageRoute(
           builder: (_) => Blog()
         );
-      case products:
-        return MaterialPageRoute(
-          builder: (_) => Blog()
-        );
-      case about:
-        return MaterialPageRoute(
-          builder: (_) => Blog()
-        );
       default:
         throw Exception('Route not found');
     }
