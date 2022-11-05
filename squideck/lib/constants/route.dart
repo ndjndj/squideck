@@ -4,6 +4,8 @@ import 'package:flutter/material.dart';
 class RouteGenerator {
   static const String home = '/';
   static const String blog = '/blog';
+  static const String products = '/products';
+  static const String about = '/about';
 
   static Route<dynamic> generateRoute(RouteSettings settings) {
     switch (settings.name) {
@@ -12,6 +14,14 @@ class RouteGenerator {
           builder: (_) => Home()
         );
       case blog:
+        return MaterialPageRoute(
+          builder: (_) => Blog()
+        );
+      case products:
+        return MaterialPageRoute(
+          builder: (_) => Blog()
+        );
+      case about:
         return MaterialPageRoute(
           builder: (_) => Blog()
         );
