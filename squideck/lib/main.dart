@@ -30,7 +30,7 @@ class Home extends StatefulWidget {
 }
 
 class _HomeState extends State<Home> {
-  final List<String> _appbarItem = ['blog', 'products', 'about'];
+  
   @override
   Widget build(BuildContext context) {
 
