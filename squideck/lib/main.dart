@@ -68,7 +68,7 @@ class _HomeState extends State<Home> {
         )
       ),
       body: CommonFrame(
-        contents: Welcome(),
+        contents: const Welcome(),
       )
     );
   }
