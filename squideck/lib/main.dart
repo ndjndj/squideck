@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:squideck/constants/custom_theme.dart';
+import 'package:squideck/constants/page_path.dart';
 import 'package:squideck/constants/route.dart';
 
 void main() {
@@ -66,7 +67,9 @@ class _HomeState extends State<Home> {
           }
         )
       ),
-      body: 
+      body: CommonFrame(
+        contents: Welcome(),
+      )
     );
   }
 }
