@@ -11,7 +11,9 @@ class RouteGenerator {
     switch (settings.name) {
       case home:
         return MaterialPageRoute(
-          builder: (_) => Home()
+          builder: (_) => CommonFrame(
+            contents: Welcome(),
+          )
         );
       case blog:
         return MaterialPageRoute(
