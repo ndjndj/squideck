@@ -34,42 +34,8 @@ class _HomeState extends State<Home> {
   @override
   Widget build(BuildContext context) {
 
-    return Scaffold(
-      appBar: AppBar(
-        title: Text(
-          'SquidecK',
-          style: TextStyle(color: CustomTheme.instance.letter)
-        ),
-        backgroundColor: CustomTheme.instance.appBar,
-        leading: IconButton(
-          icon: const CircleAvatar(
-            backgroundImage: NetworkImage('assets/squid.png'),
-            backgroundColor: Colors.white,
-          ),
-          onPressed: (){return;},
-        ),
-        actions: List.generate(_appbarItem.length,
-          (index) {
-            return Center(
-              child: Padding(
-                padding: const EdgeInsets.all(8.0),
-                child: GestureDetector(
-                  onTap: () => Navigator.pushNamed(context, '/${_appbarItem[index]}'),
-                  child: Text(
-                    _appbarItem[index],
-                    style: const TextStyle(
-                      fontSize: 20,
-                    ),
-                  ),
-                )
-              )
-            );
-          }
-        )
-      ),
-      body: CommonFrame(
-        contents: Welcome(),
-      )
+    return CommonFrame(
+      contents: Welcome(),
     );
   }
 }
