@@ -66,76 +66,7 @@ class _HomeState extends State<Home> {
           }
         )
       ),
-      body: Container(
-        color: CustomTheme.instance.containerBgColor,
-        child: SingleChildScrollView(
-          child: Container(
-            color: CustomTheme.instance.containerBgColor,
-            child: Column(
-              mainAxisAlignment: MainAxisAlignment.center,
-              children: [
-                Container(
-                  height: 1200,
-                  width: double.infinity,
-                  decoration: const BoxDecoration(
-                    borderRadius: BorderRadius.all(Radius.circular(10)),
-                    color: Colors.black,
-                  ),
-                  margin: const EdgeInsets.symmetric(horizontal: 20.0, vertical: 100),
-                  child: Column(
-                    children: [
-                      Text(
-                        'When my muscles say "No", I say "Yes".',
-                        style: TextStyle(
-                          color: CustomTheme.instance.letter
-                        ),
-                      )
-                    ],
-                  ),
-                ),
-                Container(
-                  height: 200,
-                  width: double.infinity,
-                  decoration: const BoxDecoration(
-                    borderRadius: BorderRadius.all(Radius.circular(10)),
-                    color: Colors.black,
-                  ),
-                  margin: const EdgeInsets.symmetric(horizontal: 20.0, vertical: 100),
-                  child: Column(
-                    children: [
-                      Text(
-                        'When my muscles say "No", I say "Yes".',
-                        style: TextStyle(
-                          color: CustomTheme.instance.letter
-                        ),
-                      )
-                    ],
-                  ),
-                ),
-                Container(
-                  height: 200,
-                  width: double.infinity,
-                  decoration: const BoxDecoration(
-                    borderRadius: BorderRadius.all(Radius.circular(10)),
-                    color: Colors.black,
-                  ),
-                  margin: const EdgeInsets.symmetric(horizontal: 20.0, vertical: 100),
-                  child: Column(
-                    children: [
-                      Text(
-                        'When my muscles say "No", I say "Yes".',
-                        style: TextStyle(
-                          color: CustomTheme.instance.letter
-                        ),
-                      )
-                    ],
-                  ),
-                )
-              ]
-            ),
-          ),
-        )
-      ),
+      body: 
     );
   }
 }
