@@ -1,10 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:squideck/constants/custom_theme.dart';
-import 'package:squideck/constants/page_path.dart';
 import 'package:squideck/constants/route.dart';
 
 void main() {
-  runApp(const MyApp());
+  runApp(
+    const MyApp()
+  );
 }
 
 class MyApp extends StatelessWidget {
@@ -13,7 +14,7 @@ class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return const MaterialApp(
       title: 'SquidecK',
       onGenerateRoute: RouteGenerator.generateRoute,
     );
@@ -60,7 +61,6 @@ class _HomeState extends State<Home> {
                     ),
                   ),
                 )
-
               )
             );
           }
