@@ -15,7 +15,9 @@ class RouteGenerator {
         );
       case blog:
         return MaterialPageRoute(
-          builder: (_) => Blog()
+          builder: (_) => CommonFrame(
+            contents: Blog()
+          )
         );
       default:
         throw Exception('Route not found');
