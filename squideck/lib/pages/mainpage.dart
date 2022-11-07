@@ -65,7 +65,7 @@ class Welcome extends StatelessWidget {
                         padding: const EdgeInsets.only(top: 4.0, left: 8.0),
                         width: double.infinity,
                         child: Text(
-                          '- My admirer are Aimyon, Munenori kawasaki, Taro Okamoto etc.',
+                          "- Motto is '人間万事塞翁が馬'",
                           style: TextStyle(
                             color: CustomTheme.instance.letter,
                             fontSize: 24
