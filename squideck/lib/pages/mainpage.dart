@@ -15,11 +15,12 @@ class Welcome extends StatelessWidget {
           children: [
             Container(
               width: double.infinity,
+              height: 300,
+              color: Colors.black,
               margin: const EdgeInsets.symmetric(horizontal: 20.0, vertical: 100),
               child: Stack(
                 children: [
                   Container(
-
                     width: double.infinity,
                     decoration: BoxDecoration(
                       borderRadius: BorderRadius.all(Radius.circular(10)),
