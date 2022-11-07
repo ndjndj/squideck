@@ -43,7 +43,7 @@ class Welcome extends StatelessWidget {
                         width: double.infinity,
                         padding: const EdgeInsets.only(top: 8.0, left: 8.0),
                         child: Text(
-                          '- Software developer from nagoya.',
+                          'Me           : Software developer from nagoya.',
                           style: TextStyle(
                             color: CustomTheme.instance.letter,
                             fontSize: 24
@@ -54,7 +54,7 @@ class Welcome extends StatelessWidget {
                         padding: const EdgeInsets.only(top: 4.0, left: 8.0),
                         width: double.infinity,
                         child: Text(
-                          '- My admirer are Aimyon, Munenori kawasaki, Taro Okamoto etc.',
+                          'Admirer : are Aimyon, Munenori kawasaki, Taro Okamoto etc.',
                           style: TextStyle(
                             color: CustomTheme.instance.letter,
                             fontSize: 24
@@ -65,7 +65,7 @@ class Welcome extends StatelessWidget {
                         padding: const EdgeInsets.only(top: 4.0, left: 8.0),
                         width: double.infinity,
                         child: Text(
-                          "- Motto is '人間万事塞翁が馬'",
+                          "Motto     : '人間万事塞翁が馬'",
                           style: TextStyle(
                             color: CustomTheme.instance.letter,
                             fontSize: 24
