@@ -41,14 +41,23 @@ class Welcome extends StatelessWidget {
                       Container(
                         padding: const EdgeInsets.only(top: 8.0, left: 8.0),
                         child: Text(
-                          'Software developer from nagoya.',
+                          '- Software developer from nagoya.',
                           style: TextStyle(
                             color: CustomTheme.instance.letter,
                             fontSize: 24
                           ),
                         ),
                       ),
-
+                      Container(
+                        padding: const EdgeInsets.only(top: 8.0, left: 8.0),
+                        child: Text(
+                          '- My admirer are Aimyon, Munenori kawasaki, Taro Okamoto',
+                          style: TextStyle(
+                            color: CustomTheme.instance.letter,
+                            fontSize: 24
+                          ),
+                        ),
+                      ),
                     ],
                   ),
                   Container(
