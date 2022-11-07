@@ -40,6 +40,7 @@ class Welcome extends StatelessWidget {
                     mainAxisAlignment: MainAxisAlignment.start,
                     children: [
                       Container(
+                        width: double.infinity,
                         padding: const EdgeInsets.only(top: 8.0, left: 8.0),
                         child: Text(
                           '- Software developer from nagoya.',
@@ -51,6 +52,7 @@ class Welcome extends StatelessWidget {
                       ),
                       Container(
                         padding: const EdgeInsets.only(top: 8.0, left: 8.0),
+                        width: double.infinity,
                         child: Text(
                           '- My admirer are Aimyon, Munenori kawasaki, Taro Okamoto etc.',
                           style: TextStyle(
