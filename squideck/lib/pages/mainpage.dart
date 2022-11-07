@@ -14,16 +14,21 @@ class Welcome extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Container(
-              height: 1200,
               width: double.infinity,
-              decoration: const BoxDecoration(
+              decoration: BoxDecoration(
                 borderRadius: BorderRadius.all(Radius.circular(10)),
-                color: Colors.black,
+                image: DecorationImage(
+                  colorFilter: ColorFilter.mode(
+                    Colors.white.withOpacity(0.5),
+                    BlendMode.dstATop,
+                  ),
+                  image: const NetworkImage('assets/sampleimages/squid.png'),
+                ),
               ),
               margin: const EdgeInsets.symmetric(horizontal: 20.0, vertical: 100),
               child: Stack(
                 children: [
-                  
+
                   Column(
                     children: [
                       Text(
