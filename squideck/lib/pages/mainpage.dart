@@ -41,7 +41,7 @@ class Welcome extends StatelessWidget {
                     children: [
                       Container(
                         width: double.infinity,
-                        padding: const EdgeInsets.only(top: 8.0, left: 8.0),
+                        padding: const EdgeInsets.only(top: 16.0, left: 8.0),
                         child: Text(
                           'Me           : Software developer from nagoya.',
                           style: TextStyle(
@@ -51,7 +51,7 @@ class Welcome extends StatelessWidget {
                         ),
                       ),
                       Container(
-                        padding: const EdgeInsets.only(top: 4.0, left: 8.0),
+                        padding: const EdgeInsets.only(top: 8.0, left: 8.0),
                         width: double.infinity,
                         child: Text(
                           'Admirer : are Aimyon, Munenori kawasaki, Taro Okamoto etc.',
@@ -62,21 +62,10 @@ class Welcome extends StatelessWidget {
                         ),
                       ),
                       Container(
-                        padding: const EdgeInsets.only(top: 4.0, left: 8.0),
+                        padding: const EdgeInsets.only(top: 8.0, left: 8.0),
                         width: double.infinity,
                         child: Text(
                           "Motto     : '人間万事塞翁が馬'",
-                          style: TextStyle(
-                            color: CustomTheme.instance.letter,
-                            fontSize: 24
-                          ),
-                        ),
-                      ),
-                      Container(
-                        padding: const EdgeInsets.only(top: 4.0, left: 8.0),
-                        width: double.infinity,
-                        child: Text(
-                          '- My admirer are Aimyon, Munenori kawasaki, Taro Okamoto etc.',
                           style: TextStyle(
                             color: CustomTheme.instance.letter,
                             fontSize: 24
