@@ -19,6 +19,8 @@ class Welcome extends StatelessWidget {
               child: Stack(
                 children: [
                   Container(
+
+                    width: double.infinity,
                     decoration: BoxDecoration(
                       borderRadius: BorderRadius.all(Radius.circular(10)),
                       image: DecorationImage(
@@ -26,7 +28,10 @@ class Welcome extends StatelessWidget {
                           Colors.white.withOpacity(0.5),
                           BlendMode.dstATop,
                         ),
-                        image: const NetworkImage('assets/sampleimages/squid.png'),
+                        image: const NetworkImage(
+                          'assets/sampleimages/squid.png',
+                        ),
+                        fit: BoxFit.fitWidth
                       ),
                     ),
                   ),
