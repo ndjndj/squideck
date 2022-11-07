@@ -23,10 +23,10 @@ class Welcome extends StatelessWidget {
                   Container(
                     width: double.infinity,
                     decoration: BoxDecoration(
-                      borderRadius: BorderRadius.all(Radius.circular(10)),
+                      borderRadius: const BorderRadius.all(Radius.circular(10)),
                       image: DecorationImage(
                         colorFilter: ColorFilter.mode(
-                          Colors.white.withOpacity(0.2),
+                          Colors.white.withOpacity(0.4),
                           BlendMode.dstATop,
                         ),
                         image: const NetworkImage(
