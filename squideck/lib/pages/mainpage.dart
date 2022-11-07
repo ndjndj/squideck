@@ -38,12 +38,17 @@ class Welcome extends StatelessWidget {
                   ),
                   Column(
                     children: [
-                      Text(
-                        'When my muscles say "No", I say "Yes".',
-                        style: TextStyle(
-                          color: CustomTheme.instance.letter
+                      Container(
+                        padding: const EdgeInsets.only(top: 8.0, left: 8.0),
+                        child: Text(
+                          'Software developer',
+                          style: TextStyle(
+                            color: CustomTheme.instance.letter,
+                            fontSize: 24
+                          ),
                         ),
-                      )
+                      ),
+
                     ],
                   ),
                 ],
