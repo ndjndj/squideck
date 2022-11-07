@@ -15,20 +15,21 @@ class Welcome extends StatelessWidget {
           children: [
             Container(
               width: double.infinity,
-              decoration: BoxDecoration(
-                borderRadius: BorderRadius.all(Radius.circular(10)),
-                image: DecorationImage(
-                  colorFilter: ColorFilter.mode(
-                    Colors.white.withOpacity(0.5),
-                    BlendMode.dstATop,
-                  ),
-                  image: const NetworkImage('assets/sampleimages/squid.png'),
-                ),
-              ),
               margin: const EdgeInsets.symmetric(horizontal: 20.0, vertical: 100),
               child: Stack(
                 children: [
-
+                  Container(
+                    decoration: BoxDecoration(
+                      borderRadius: BorderRadius.all(Radius.circular(10)),
+                      image: DecorationImage(
+                        colorFilter: ColorFilter.mode(
+                          Colors.white.withOpacity(0.5),
+                          BlendMode.dstATop,
+                        ),
+                        image: const NetworkImage('assets/sampleimages/squid.png'),
+                      ),
+                    ),
+                  ),
                   Column(
                     children: [
                       Text(
