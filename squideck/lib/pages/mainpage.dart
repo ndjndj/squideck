@@ -41,7 +41,7 @@ class Welcome extends StatelessWidget {
                       Container(
                         padding: const EdgeInsets.only(top: 8.0, left: 8.0),
                         child: Text(
-                          'Software developer',
+                          'Software developer from nagoya.',
                           style: TextStyle(
                             color: CustomTheme.instance.letter,
                             fontSize: 24
