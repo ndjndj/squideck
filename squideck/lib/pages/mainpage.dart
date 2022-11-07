@@ -52,6 +52,7 @@ class Welcome extends StatelessWidget {
                     ],
                   ),
                   Container(
+                    alignment: Alignment.bottomLeft,
                     padding: const EdgeInsets.only(top: 8.0, left: 8.0),
                     child: Text(
                       'About',
