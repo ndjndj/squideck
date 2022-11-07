@@ -23,6 +23,7 @@ class Welcome extends StatelessWidget {
               margin: const EdgeInsets.symmetric(horizontal: 20.0, vertical: 100),
               child: Stack(
                 children: [
+                  
                   Column(
                     children: [
                       Text(
