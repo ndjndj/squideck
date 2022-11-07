@@ -21,16 +21,21 @@ class Welcome extends StatelessWidget {
                 color: Colors.black,
               ),
               margin: const EdgeInsets.symmetric(horizontal: 20.0, vertical: 100),
-              child: Column(
+              child: Stack(
                 children: [
-                  Text(
-                    'When my muscles say "No", I say "Yes".',
-                    style: TextStyle(
-                      color: CustomTheme.instance.letter
-                    ),
-                  )
+                  Column(
+                    children: [
+                      Text(
+                        'When my muscles say "No", I say "Yes".',
+                        style: TextStyle(
+                          color: CustomTheme.instance.letter
+                        ),
+                      )
+                    ],
+                  ),
                 ],
               ),
+
             ),
           ]
         ),
