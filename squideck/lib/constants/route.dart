@@ -1,5 +1,7 @@
 import 'package:squideck/constants/page_path.dart';
 import 'package:flutter/material.dart';
+import 'package:squideck/pages/about.dart';
+import 'package:squideck/pages/products.dart';
 
 class RouteGenerator {
   static const String home = '/';
@@ -19,6 +21,18 @@ class RouteGenerator {
         return MaterialPageRoute(
           builder: (_) => CommonFrame(
             contents: Blog()
+          )
+        );
+      case products:
+        return MaterialPageRoute(
+          builder: (_) => CommonFrame(
+            contents: Products()
+          )
+        );
+      case about:
+        return MaterialPageRoute(
+          builder: (_) => CommonFrame(
+            contents: About()
           )
         );
       default:
