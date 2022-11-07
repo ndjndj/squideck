@@ -16,7 +16,7 @@ class Welcome extends StatelessWidget {
             Container(
               width: double.infinity,
               height: 300,
-              color: Colors.black,
+              color: Color(0xFF333333),
               margin: const EdgeInsets.symmetric(horizontal: 20.0, vertical: 100),
               child: Stack(
                 children: [
@@ -26,7 +26,7 @@ class Welcome extends StatelessWidget {
                       borderRadius: BorderRadius.all(Radius.circular(10)),
                       image: DecorationImage(
                         colorFilter: ColorFilter.mode(
-                          Colors.white.withOpacity(0.5),
+                          Colors.white.withOpacity(0.2),
                           BlendMode.dstATop,
                         ),
                         image: const NetworkImage(
@@ -58,7 +58,7 @@ class Welcome extends StatelessWidget {
                       'About',
                       style: TextStyle(
                         color: CustomTheme.instance.letter,
-                        fontSize: 24
+                        fontSize: 48
                       ),
                     ),
                   ),
