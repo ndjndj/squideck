@@ -51,7 +51,29 @@ class Welcome extends StatelessWidget {
                         ),
                       ),
                       Container(
-                        padding: const EdgeInsets.only(top: 8.0, left: 8.0),
+                        padding: const EdgeInsets.only(top: 4.0, left: 8.0),
+                        width: double.infinity,
+                        child: Text(
+                          '- My admirer are Aimyon, Munenori kawasaki, Taro Okamoto etc.',
+                          style: TextStyle(
+                            color: CustomTheme.instance.letter,
+                            fontSize: 24
+                          ),
+                        ),
+                      ),
+                      Container(
+                        padding: const EdgeInsets.only(top: 4.0, left: 8.0),
+                        width: double.infinity,
+                        child: Text(
+                          '- My admirer are Aimyon, Munenori kawasaki, Taro Okamoto etc.',
+                          style: TextStyle(
+                            color: CustomTheme.instance.letter,
+                            fontSize: 24
+                          ),
+                        ),
+                      ),
+                      Container(
+                        padding: const EdgeInsets.only(top: 4.0, left: 8.0),
                         width: double.infinity,
                         child: Text(
                           '- My admirer are Aimyon, Munenori kawasaki, Taro Okamoto etc.',
