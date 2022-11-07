@@ -9,6 +9,7 @@ class Welcome extends StatelessWidget {
     return SingleChildScrollView(
       child: Container(
         color: CustomTheme.instance.containerBgColor,
+        height: MediaQuery.of(context).size.height,
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
