@@ -37,6 +37,7 @@ class Welcome extends StatelessWidget {
                     ),
                   ),
                   Column(
+                    mainAxisAlignment: MainAxisAlignment.start,
                     children: [
                       Container(
                         padding: const EdgeInsets.only(top: 8.0, left: 8.0),
@@ -51,7 +52,7 @@ class Welcome extends StatelessWidget {
                       Container(
                         padding: const EdgeInsets.only(top: 8.0, left: 8.0),
                         child: Text(
-                          '- My admirer are Aimyon, Munenori kawasaki, Taro Okamoto',
+                          '- My admirer are Aimyon, Munenori kawasaki, Taro Okamoto etc.',
                           style: TextStyle(
                             color: CustomTheme.instance.letter,
                             fontSize: 24
