@@ -15,9 +15,12 @@ class CommonFrame extends StatelessWidget {
 
     return Scaffold(
       appBar: AppBar(
-        title: Text(
-          'SquidecK',
-          style: TextStyle(color: CustomTheme.instance.letter)
+        title: GestureDetector(
+          onTap: () => Navigator.pushNamed(context, '/'),
+          child: Text(
+            'SquidecK',
+            style: TextStyle(color: CustomTheme.instance.letter)
+          ),
         ),
         backgroundColor: CustomTheme.instance.appBar,
         leading: IconButton(
