@@ -11,7 +11,7 @@ class Welcome extends StatelessWidget {
         color: CustomTheme.instance.containerBgColor,
         height: MediaQuery.of(context).size.height,
         child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
+          mainAxisAlignment: MainAxisAlignment.start,
           children: [
             Container(
               width: double.infinity,
@@ -20,7 +20,7 @@ class Welcome extends StatelessWidget {
                 borderRadius: BorderRadius.all(Radius.circular(10)),
                 color: Color(0xFF333333),
               ),
-              margin: const EdgeInsets.symmetric(horizontal: 20.0, vertical: 0),
+              margin: const EdgeInsets.symmetric(horizontal: 20.0, vertical: 20),
               child: Stack(
                 children: [
                   Container(
