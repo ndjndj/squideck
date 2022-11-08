@@ -49,7 +49,7 @@ class Welcome extends StatelessWidget {
                           'Post',
                           style: TextStyle(
                             color: CustomTheme.instance.letter,
-                            fontSize: 48
+                            fontSize: 60
                           ),
                         ),
                       ),
@@ -60,7 +60,7 @@ class Welcome extends StatelessWidget {
                           'When my muscles say "No", I say "Yes".',
                           style: TextStyle(
                             color: CustomTheme.instance.letter,
-                            fontSize: 24
+                            fontSize: 36
                           ),
                         ),
                       ),
@@ -68,14 +68,27 @@ class Welcome extends StatelessWidget {
                         padding: const EdgeInsets.only(top: 16.0, left: 36.0, right: 36.0),
                         width: double.infinity,
                         child: Text(
-                          'TextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextText',
+                          'TextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTe',
                           style: TextStyle(
                             color: CustomTheme.instance.letter,
-                            fontSize: 18
+                            fontSize: 24
                           ),
                         ),
                       ),
+
                     ],
+                  ),
+                  Container(
+                    alignment: Alignment.bottomRight,
+                    padding: const EdgeInsets.only(bottom: 16.0, left: 36.0, right: 36.0),
+                    width: double.infinity,
+                    child: Text(
+                      '2022/12/24 12:04',
+                      style: TextStyle(
+                        color: CustomTheme.instance.letter,
+                        fontSize: 24
+                      ),
+                    ),
                   ),
                 ],
               ),
