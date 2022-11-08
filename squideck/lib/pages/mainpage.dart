@@ -112,7 +112,7 @@ class Welcome extends StatelessWidget {
                           BlendMode.dstATop,
                         ),
                         image: const NetworkImage(
-                          'assets/sampleimages/squid.png',
+                          'assets/sampleimages/pickles.png',
                         ),
                         fit: BoxFit.fitWidth
                       ),
