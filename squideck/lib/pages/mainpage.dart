@@ -20,7 +20,7 @@ class Welcome extends StatelessWidget {
                 borderRadius: BorderRadius.all(Radius.circular(10)),
                 color: Color(0xFF333333),
               ),
-              margin: const EdgeInsets.symmetric(horizontal: 20.0, vertical: 20),
+              margin: const EdgeInsets.symmetric(horizontal: 20.0, vertical: 0),
               child: Stack(
                 children: [
                   Container(
