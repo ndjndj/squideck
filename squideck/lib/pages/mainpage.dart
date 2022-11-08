@@ -74,6 +74,8 @@ class Welcome extends StatelessWidget {
                               color: CustomTheme.instance.letter,
                               fontSize: 24
                             ),
+                            overflow: TextOverflow.ellipsis,
+                            maxLines: 3,
                           ),
                         ),
                       ],
