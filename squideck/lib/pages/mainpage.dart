@@ -64,6 +64,17 @@ class Welcome extends StatelessWidget {
                           ),
                         ),
                       ),
+                      Container(
+                        padding: const EdgeInsets.only(top: 16.0, left: 36.0, right: 36.0),
+                        width: double.infinity,
+                        child: Text(
+                          'TextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextText',
+                          style: TextStyle(
+                            color: CustomTheme.instance.letter,
+                            fontSize: 18
+                          ),
+                        ),
+                      ),
                     ],
                   ),
                 ],
