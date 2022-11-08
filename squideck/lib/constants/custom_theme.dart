@@ -8,4 +8,5 @@ class CustomTheme {
   Color appBar = const Color(0xFF465D4C);
   Color letter = const Color(0xFFFAFAFA);
   Color containerBgColor = const Color(0xFF8FA896);
+  Color dark = const Color(0xFF333333);
 }

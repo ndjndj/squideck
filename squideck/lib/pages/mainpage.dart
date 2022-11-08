@@ -91,10 +91,13 @@ class Welcome extends StatelessWidget {
                     ),
                   ),
                   Container(
-                    alignment: Alignment.topRight,
-                    padding: const EdgeInsets.only(top: 16.0, left: 36.0, right: 36.0),
+                    alignment: Alignment.bottomRight,
+                    padding: const EdgeInsets.only(bottom: 16.0, left: 36.0, right: 36.0),
                     width: double.infinity,
                     child: ElevatedButton(
+                      style: ElevatedButton.styleFrom(
+                        backgroundColor: CustomTheme.instance.dark
+                      ),
                       child: Text(
                         'Read more',
                         style: TextStyle(
