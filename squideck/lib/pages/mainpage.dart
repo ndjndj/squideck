@@ -50,7 +50,7 @@ class Welcome extends StatelessWidget {
                             Container(
                               width: 120,
                               child: Text(
-                                'Me',
+                                'Name',
                                 style: TextStyle(
                                   color: CustomTheme.instance.letter,
                                   fontSize: 24
@@ -59,9 +59,38 @@ class Welcome extends StatelessWidget {
                             ),
                             Expanded(
                               child: Container(
-                                width: 200,
                                 child: Text(
-                                  ': Software developer from nagoya.',
+                                  ': Yuta Shinzawa',
+                                  style: TextStyle(
+                                    color: CustomTheme.instance.letter,
+                                    fontSize: 24
+                                  ),
+                                ),
+                              ),
+                            ),
+
+                          ],
+                        ),
+                      ),
+                      Container(
+                        padding: const EdgeInsets.only(top: 16.0, left: 8.0),
+                        child: Row(
+                          mainAxisAlignment: MainAxisAlignment.start,
+                          children: [
+                            Container(
+                              width: 120,
+                              child: Text(
+                                'Job',
+                                style: TextStyle(
+                                  color: CustomTheme.instance.letter,
+                                  fontSize: 24
+                                ),
+                              ),
+                            ),
+                            Expanded(
+                              child: Container(
+                                child: Text(
+                                  ': Software developer',
                                   style: TextStyle(
                                     color: CustomTheme.instance.letter,
                                     fontSize: 24
@@ -90,7 +119,6 @@ class Welcome extends StatelessWidget {
                             ),
                             Expanded(
                               child: Container(
-                                width: 200,
                                 child: Text(
                                   ': Aimyon, Munenori kawasaki, Taro Okamoto etc.',
                                   style: TextStyle(
