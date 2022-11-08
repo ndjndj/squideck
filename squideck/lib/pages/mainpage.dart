@@ -90,6 +90,21 @@ class Welcome extends StatelessWidget {
                       ),
                     ),
                   ),
+                  Container(
+                    alignment: Alignment.topRight,
+                    padding: const EdgeInsets.only(top: 16.0, left: 36.0, right: 36.0),
+                    width: double.infinity,
+                    child: ElevatedButton(
+                      child: Text(
+                        'Read more',
+                        style: TextStyle(
+                          color: CustomTheme.instance.letter,
+                          fontSize: 24
+                        ),
+                      ),
+                      onPressed: () {},
+                    )
+                  ),
                 ],
               ),
             ),
