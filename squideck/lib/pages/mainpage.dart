@@ -44,7 +44,7 @@ class Welcome extends StatelessWidget {
                     children: [
                       Container(
                         alignment: Alignment.bottomLeft,
-                        padding: const EdgeInsets.only(top: 8.0, left: 8.0),
+                        padding: const EdgeInsets.only(top: 8.0, left: 16.0),
                         child: Text(
                           'About',
                           style: TextStyle(
@@ -54,7 +54,7 @@ class Welcome extends StatelessWidget {
                         ),
                       ),
                       Container(
-                        padding: const EdgeInsets.only(top: 16.0, left: 8.0),
+                        padding: const EdgeInsets.only(top: 8.0, left: 24.0),
                         child: Row(
                           mainAxisAlignment: MainAxisAlignment.start,
                           children: [
@@ -84,7 +84,7 @@ class Welcome extends StatelessWidget {
                         ),
                       ),
                       Container(
-                        padding: const EdgeInsets.only(top: 16.0, left: 8.0),
+                        padding: const EdgeInsets.only(top: 8.0, left: 24.0),
                         child: Row(
                           mainAxisAlignment: MainAxisAlignment.start,
                           children: [
@@ -114,7 +114,7 @@ class Welcome extends StatelessWidget {
                         ),
                       ),
                       Container(
-                        padding: const EdgeInsets.only(top: 16.0, left: 8.0),
+                        padding: const EdgeInsets.only(top: 8.0, left: 24.0),
                         child: Row(
                           mainAxisAlignment: MainAxisAlignment.start,
                           children: [
