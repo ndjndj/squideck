@@ -46,7 +46,7 @@ class Welcome extends StatelessWidget {
                         alignment: Alignment.bottomLeft,
                         padding: const EdgeInsets.only(top: 8.0, left: 16.0),
                         child: Text(
-                          'About',
+                          'Post',
                           style: TextStyle(
                             color: CustomTheme.instance.letter,
                             fontSize: 48
