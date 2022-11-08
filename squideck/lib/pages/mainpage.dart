@@ -16,7 +16,11 @@ class Welcome extends StatelessWidget {
             Container(
               width: double.infinity,
               height: 300,
-              color: const Color(0xFF333333),
+              decoration: const BoxDecoration(
+                borderRadius: BorderRadius.all(Radius.circular(10)),
+                color: Color(0xFF333333),
+              ),
+
               margin: const EdgeInsets.symmetric(horizontal: 20.0, vertical: 100),
               child: Stack(
                 children: [
