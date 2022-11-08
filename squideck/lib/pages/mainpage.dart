@@ -75,7 +75,6 @@ class Welcome extends StatelessWidget {
                           ),
                         ),
                       ),
-
                     ],
                   ),
                   Container(
@@ -83,7 +82,7 @@ class Welcome extends StatelessWidget {
                     padding: const EdgeInsets.only(top: 16.0, left: 36.0, right: 36.0),
                     width: double.infinity,
                     child: Text(
-                      'last post: 2022/12/24 12:04',
+                      'Last post: 2022/12/24 12:04',
                       style: TextStyle(
                         color: CustomTheme.instance.letter,
                         fontSize: 24
