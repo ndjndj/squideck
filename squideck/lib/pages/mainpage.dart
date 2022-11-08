@@ -20,7 +20,7 @@ class Welcome extends StatelessWidget {
                 borderRadius: BorderRadius.all(Radius.circular(10)),
                 color: Color(0xFF333333),
               ),
-              margin: const EdgeInsets.symmetric(horizontal: 20.0, vertical: 100),
+              margin: const EdgeInsets.symmetric(horizontal: 20.0, vertical: 20),
               child: Stack(
                 children: [
                   Container(
@@ -72,66 +72,6 @@ class Welcome extends StatelessWidget {
                               child: Container(
                                 child: Text(
                                   ': Yuta Shinzawa',
-                                  style: TextStyle(
-                                    color: CustomTheme.instance.letter,
-                                    fontSize: 24
-                                  ),
-                                ),
-                              ),
-                            ),
-
-                          ],
-                        ),
-                      ),
-                      Container(
-                        padding: const EdgeInsets.only(top: 8.0, left: 24.0),
-                        child: Row(
-                          mainAxisAlignment: MainAxisAlignment.start,
-                          children: [
-                            Container(
-                              width: 120,
-                              child: Text(
-                                'Job',
-                                style: TextStyle(
-                                  color: CustomTheme.instance.letter,
-                                  fontSize: 24
-                                ),
-                              ),
-                            ),
-                            Expanded(
-                              child: Container(
-                                child: Text(
-                                  ': Software developer',
-                                  style: TextStyle(
-                                    color: CustomTheme.instance.letter,
-                                    fontSize: 24
-                                  ),
-                                ),
-                              ),
-                            ),
-
-                          ],
-                        ),
-                      ),
-                      Container(
-                        padding: const EdgeInsets.only(top: 8.0, left: 24.0),
-                        child: Row(
-                          mainAxisAlignment: MainAxisAlignment.start,
-                          children: [
-                            Container(
-                              width: 120,
-                              child: Text(
-                                'Admirer',
-                                style: TextStyle(
-                                  color: CustomTheme.instance.letter,
-                                  fontSize: 24
-                                ),
-                              ),
-                            ),
-                            Expanded(
-                              child: Container(
-                                child: Text(
-                                  ': Aimyon, Munenori kawasaki, Taro Okamoto etc.',
                                   style: TextStyle(
                                     color: CustomTheme.instance.letter,
                                     fontSize: 24
