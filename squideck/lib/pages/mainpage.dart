@@ -92,7 +92,6 @@ class Welcome extends StatelessWidget {
                   ),
                 ],
               ),
-
             ),
             Container(
               width: double.infinity,
