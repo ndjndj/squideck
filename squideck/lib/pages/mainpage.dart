@@ -55,31 +55,13 @@ class Welcome extends StatelessWidget {
                       ),
                       Container(
                         padding: const EdgeInsets.only(top: 8.0, left: 24.0),
-                        child: Row(
-                          mainAxisAlignment: MainAxisAlignment.start,
-                          children: [
-                            Container(
-                              width: 120,
-                              child: Text(
-                                'Name',
-                                style: TextStyle(
-                                  color: CustomTheme.instance.letter,
-                                  fontSize: 24
-                                ),
-                              ),
-                            ),
-                            Expanded(
-                              child: Container(
-                                child: Text(
-                                  ': Yuta Shinzawa',
-                                  style: TextStyle(
-                                    color: CustomTheme.instance.letter,
-                                    fontSize: 24
-                                  ),
-                                ),
-                              ),
-                            ),
-                          ],
+                        width: double.infinity,
+                        child: Text(
+                          'When my muscles say "No", I say "Yes".',
+                          style: TextStyle(
+                            color: CustomTheme.instance.letter,
+                            fontSize: 24
+                          ),
                         ),
                       ),
                     ],
