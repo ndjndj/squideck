@@ -43,36 +43,65 @@ class Welcome extends StatelessWidget {
                     mainAxisAlignment: MainAxisAlignment.start,
                     children: [
                       Container(
-                        width: double.infinity,
                         padding: const EdgeInsets.only(top: 16.0, left: 8.0),
-                        child: Text(
-                          'Me           : Software developer from nagoya.',
-                          style: TextStyle(
-                            color: CustomTheme.instance.letter,
-                            fontSize: 24
-                          ),
+                        child: Row(
+                          mainAxisAlignment: MainAxisAlignment.start,
+                          children: [
+                            Container(
+                              width: 120,
+                              child: Text(
+                                'Me',
+                                style: TextStyle(
+                                  color: CustomTheme.instance.letter,
+                                  fontSize: 24
+                                ),
+                              ),
+                            ),
+                            Expanded(
+                              child: Container(
+                                width: 200,
+                                child: Text(
+                                  ': Software developer from nagoya.',
+                                  style: TextStyle(
+                                    color: CustomTheme.instance.letter,
+                                    fontSize: 24
+                                  ),
+                                ),
+                              ),
+                            ),
+
+                          ],
                         ),
                       ),
                       Container(
-                        padding: const EdgeInsets.only(top: 8.0, left: 8.0),
-                        width: double.infinity,
-                        child: Text(
-                          'Admirer : are Aimyon, Munenori kawasaki, Taro Okamoto etc.',
-                          style: TextStyle(
-                            color: CustomTheme.instance.letter,
-                            fontSize: 24
-                          ),
-                        ),
-                      ),
-                      Container(
-                        padding: const EdgeInsets.only(top: 8.0, left: 8.0),
-                        width: double.infinity,
-                        child: Text(
-                          "Motto     : '人間万事塞翁が馬'",
-                          style: TextStyle(
-                            color: CustomTheme.instance.letter,
-                            fontSize: 24
-                          ),
+                        padding: const EdgeInsets.only(top: 16.0, left: 8.0),
+                        child: Row(
+                          mainAxisAlignment: MainAxisAlignment.start,
+                          children: [
+                            Container(
+                              width: 120,
+                              child: Text(
+                                'Admirer',
+                                style: TextStyle(
+                                  color: CustomTheme.instance.letter,
+                                  fontSize: 24
+                                ),
+                              ),
+                            ),
+                            Expanded(
+                              child: Container(
+                                width: 200,
+                                child: Text(
+                                  ': Aimyon, Munenori kawasaki, Taro Okamoto etc.',
+                                  style: TextStyle(
+                                    color: CustomTheme.instance.letter,
+                                    fontSize: 24
+                                  ),
+                                ),
+                              ),
+                            ),
+
+                          ],
                         ),
                       ),
                     ],
