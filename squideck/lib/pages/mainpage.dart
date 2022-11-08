@@ -82,7 +82,7 @@ class Welcome extends StatelessWidget {
                     padding: const EdgeInsets.only(top: 16.0, left: 36.0, right: 36.0),
                     width: double.infinity,
                     child: Text(
-                      'Last post: 2022/12/24 12:04',
+                      '2022/12/24 12:04',
                       style: TextStyle(
                         color: CustomTheme.instance.letter,
                         fontSize: 24
@@ -223,6 +223,18 @@ class Welcome extends StatelessWidget {
                         ),
                       ),
                     ],
+                  ),
+                  Container(
+                    alignment: Alignment.topRight,
+                    padding: const EdgeInsets.only(top: 16.0, left: 36.0, right: 36.0),
+                    width: double.infinity,
+                    child: Text(
+                      '2022/12/24 12:04',
+                      style: TextStyle(
+                        color: CustomTheme.instance.letter,
+                        fontSize: 24
+                      ),
+                    ),
                   ),
                 ],
               ),
