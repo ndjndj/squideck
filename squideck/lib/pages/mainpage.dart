@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:squideck/constants/custom_theme.dart';
+import 'package:squideck/widgets/large_about_link.dart';
 
 class Welcome extends StatelessWidget {
   const Welcome({super.key});
@@ -163,7 +164,7 @@ class Welcome extends StatelessWidget {
                   ],
                 ),
               ),
-              
+              const LargeAboutLink()
             ]
           ),
         ),
