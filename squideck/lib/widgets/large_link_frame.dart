@@ -5,11 +5,13 @@ import 'package:squideck/constants/custom_theme.dart';
 
 class LargeLinkFrame extends StatelessWidget {
   List<Widget> frameChild;
+  String backgroundImage;
 
   LargeLinkFrame(
     {
       super.key,
-      required this.frameChild
+      required this.frameChild,
+      required this.backgroundImage
     }
   );
 
@@ -35,8 +37,8 @@ class LargeLinkFrame extends StatelessWidget {
                   Colors.white.withOpacity(0.4),
                   BlendMode.dstATop,
                 ),
-                image: const NetworkImage(
-                  'assets/sampleimages/squid.png',
+                image: NetworkImage(
+                  backgroundImage,
                 ),
                 fit: BoxFit.fitWidth
               ),
