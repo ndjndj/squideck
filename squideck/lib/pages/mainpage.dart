@@ -16,7 +16,7 @@ class Welcome extends StatelessWidget {
           color: CustomTheme.instance.containerBgColor,
           child: Column(
             mainAxisAlignment: MainAxisAlignment.start,
-            children: const [
+            children: [
               LargePostLink(),
               LargeProductLink(),
               LargeAboutLink()

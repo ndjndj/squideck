@@ -5,11 +5,19 @@ import 'package:squideck/widgets/large_link_frame.dart';
 
 
 class LargePostLink extends StatelessWidget {
-  const LargePostLink({super.key});
+  Map<String, double>? margin = {'l': 20, 't': 20, 'r': 20, 'b': 20};
+
+  LargePostLink(
+    {
+      super.key,
+      margin
+    }
+  );
 
   @override
   Widget build(BuildContext context) {
     return LargeLinkFrame(
+      margin: margin,
       backgroundImage: 'assets/sampleimages/post.png',
       frameChild: <Widget> [
         Column(
