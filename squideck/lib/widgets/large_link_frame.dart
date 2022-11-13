@@ -6,12 +6,14 @@ import 'package:squideck/constants/custom_theme.dart';
 class LargeLinkFrame extends StatelessWidget {
   List<Widget> frameChild;
   String backgroundImage;
+  Map<String, double>? margin = {'l': 20, 't': 20, 'r': 20, 'b': 20};
 
   LargeLinkFrame(
     {
       super.key,
       required this.frameChild,
-      required this.backgroundImage
+      required this.backgroundImage,
+      this.margin
     }
   );
 
