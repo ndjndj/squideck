@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import 'package:squideck/constants/custom_theme.dart';
+import 'package:squideck/constants/route.dart';
 import 'package:squideck/widgets/large_link_frame.dart';
 
 
@@ -17,7 +18,7 @@ class LargePostLink extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return GestureDetector(
-      onTap: () => Navigator.pushNamed(context, '/post'),
+      onTap: () => Navigator.pushNamed(context, RouteGenerator.blog),
       child: LargeLinkFrame(
         margins: margins,
         backgroundImage: 'assets/sampleimages/post.png',
