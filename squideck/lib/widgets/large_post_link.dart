@@ -3,8 +3,8 @@ import 'package:flutter/material.dart';
 import 'package:squideck/constants/custom_theme.dart';
 
 
-class LargeAboutLink extends StatelessWidget {
-  const LargeAboutLink({super.key});
+class LargePostLink extends StatelessWidget {
+  const LargePostLink({super.key});
 
   @override
   Widget build(BuildContext context) {
