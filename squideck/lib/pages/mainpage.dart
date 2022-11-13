@@ -17,7 +17,7 @@ class Welcome extends StatelessWidget {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.start,
             children: [
-              LargePostLink(),
+              LargePostLink(margin: {'l':100,'t':100,'r':100,'b': 1000},),
               LargeProductLink(),
               LargeAboutLink()
             ]
