@@ -5,10 +5,18 @@ import 'package:squideck/widgets/large_link_frame.dart';
 
 
 class LargeAboutLink extends StatelessWidget {
-  const LargeAboutLink({super.key});
+  Map<String, double>? margin = {'l': 20, 't': 20, 'r': 20, 'b': 20};
+
+  LargeAboutLink(
+    {
+      super.key,
+      margin
+    }
+  );
 
   @override
   Widget build(BuildContext context) {
+
     const List<Map<String, String>> messages = [
       {
         'title' : 'Name',
@@ -24,6 +32,7 @@ class LargeAboutLink extends StatelessWidget {
       },
     ];
     return LargeLinkFrame(
+      margin: margin,
       backgroundImage: 'assets/sampleimages/squid.png',
       frameChild: <Widget> [
         Column(
