@@ -4,12 +4,12 @@ import 'package:squideck/constants/custom_theme.dart';
 
 
 class LargeLinkFrame extends StatelessWidget {
-  Widget child;
+  Widget frameChild;
 
   LargeLinkFrame(
     {
       super.key,
-      required this.child
+      required this.frameChild
     }
   );
 
@@ -42,7 +42,7 @@ class LargeLinkFrame extends StatelessWidget {
               ),
             ),
           ),
-          child
+          frameChild
         ],
       ),
     );
