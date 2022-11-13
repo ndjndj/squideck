@@ -10,7 +10,7 @@ class LargePostLink extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return LargeLinkFrame(
-      backgroundImage: 'assets/sampleimages/squid.png',
+      backgroundImage: 'assets/sampleimages/post.png',
       frameChild: <Widget> [
         Column(
           mainAxisAlignment: MainAxisAlignment.start,
