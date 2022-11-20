@@ -1,8 +1,5 @@
 import 'package:flutter/material.dart';
 
-import 'package:squideck/constants/custom_theme.dart';
-
-
 class LargeLinkFrame extends StatelessWidget {
   List<Widget> frameChild;
   String backgroundImage;
@@ -26,7 +23,7 @@ class LargeLinkFrame extends StatelessWidget {
       width: double.infinity,
       height: height,
       decoration: const BoxDecoration(
-        borderRadius: BorderRadius.all(Radius.circular(10)),
+        borderRadius: BorderRadius.all(Radius.circular(4.0)),
         color: Color(0xFF333333),
       ),
       margin: EdgeInsets.only(
@@ -40,7 +37,7 @@ class LargeLinkFrame extends StatelessWidget {
           Container(
             width: double.infinity,
             decoration: BoxDecoration(
-              borderRadius: const BorderRadius.all(Radius.circular(10)),
+              borderRadius: const BorderRadius.all(Radius.circular(4.0)),
               image: DecorationImage(
                 colorFilter: ColorFilter.mode(
                   Colors.white.withOpacity(0.4),
