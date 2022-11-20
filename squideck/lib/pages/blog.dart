@@ -22,7 +22,7 @@ class Blog extends StatelessWidget {
           ),
           Container(
             width: double.infinity,
-            padding: const EdgeInsets.fromLTRB(4.0, 4.0, 4.0, 4.0),
+            padding: const EdgeInsets.fromLTRB(16.0, 16.0, 16.0, 4.0),
             decoration: const BoxDecoration(
               color:Color(0xFFFAFAFA),
               borderRadius: BorderRadius.all(
