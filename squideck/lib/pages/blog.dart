@@ -44,7 +44,7 @@ class Blog extends StatelessWidget {
                   ),
                 ),
                 Container(
-                  margin: const EdgeInsets.only(left: 4.0, top: 16),
+                  margin: const EdgeInsets.only(left: 4.0, top: 16, bottom: 16.0),
                   width: double.infinity,
                   child: const Text(
                     'When my muscles say "No", I say "Yes".',
@@ -53,7 +53,15 @@ class Blog extends StatelessWidget {
                     ),
                   ),
                 ),
-                Container(),
+                Container(
+                  margin: const EdgeInsets.only(left: 32.0, right: 32.0),
+                  child: const Text(
+                    'TextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextText\nxtTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextxtTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextText',
+                    style: TextStyle(
+                      fontSize: 24
+                    ),
+                  ),
+                ),
                 Container()
               ]
             ),
