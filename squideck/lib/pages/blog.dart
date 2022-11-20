@@ -22,7 +22,7 @@ class Blog extends StatelessWidget {
           ),
           Container(
             width: double.infinity,
-            height: 400,
+            padding: const EdgeInsets.fromLTRB(4.0, 4.0, 4.0, 4.0),
             decoration: const BoxDecoration(
               color:Color(0xFFFAFAFA),
               borderRadius: BorderRadius.all(
@@ -32,6 +32,7 @@ class Blog extends StatelessWidget {
             child: Column(
               children: [
                 Container(
+                  height: 400,
                   decoration: BoxDecoration(
                     image: DecorationImage(
                       image: NetworkImage('assets/squid.png'),
