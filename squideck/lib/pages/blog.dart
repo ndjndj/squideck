@@ -10,6 +10,7 @@ class Blog extends StatelessWidget {
       child: Column(
         children: [
           Container(
+            margin: const EdgeInsets.fromLTRB(0.0, 0.0, 0.0, 16.0),
             width: double.infinity,
             child: const Text(
               'Blog posts',
