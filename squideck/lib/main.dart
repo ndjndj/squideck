@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:squideck/constants/custom_theme.dart';
 import 'package:squideck/constants/page_path.dart';
 import 'package:squideck/constants/route.dart';
 
