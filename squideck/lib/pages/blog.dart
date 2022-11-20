@@ -10,6 +10,15 @@ class Blog extends StatelessWidget {
       child: Column(
         children: [
           Container(
+            width: double.infinity,
+            child: const Text(
+              'Blog posts',
+              style: TextStyle(
+                fontSize: 36,
+              )
+            ),
+          ),
+          Container(
             color:Color(0xFFFAFAFA),
             width: double.infinity,
             height: 400,
