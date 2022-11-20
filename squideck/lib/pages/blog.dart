@@ -42,9 +42,16 @@ class Blog extends StatelessWidget {
                       fit: BoxFit.fitWidth
                     )
                   ),
-
                 ),
-                Container(),
+                Container(
+                  width: double.infinity,
+                  child: const Text(
+                    'When my muscles say "No", I say "Yes".',
+                    style: TextStyle(
+                      fontSize: 24,
+                    ),
+                  ),
+                ),
                 Container(),
                 Container()
               ]
