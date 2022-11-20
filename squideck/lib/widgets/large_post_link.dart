@@ -7,13 +7,11 @@ import 'package:squideck/widgets/large_link_frame.dart';
 
 class LargePostLink extends StatelessWidget {
   Map<String, double> margins;
-  bool isVisibleTitle;
 
   LargePostLink(
     {
       super.key,
       this.margins = const {'l': 20, 't': 20, 'r': 20, 'b': 20},
-      this.isVisibleTitle = true,
     }
   );
 
@@ -28,7 +26,7 @@ class LargePostLink extends StatelessWidget {
           Column(
             mainAxisAlignment: MainAxisAlignment.start,
             children: [
-              isVisibleTitle ? Container(
+              Container(
                 alignment: Alignment.bottomLeft,
                 padding: const EdgeInsets.only(top: 8.0, left: 16.0),
                 child: Text(
@@ -38,7 +36,7 @@ class LargePostLink extends StatelessWidget {
                     fontSize: 60
                   ),
                 ),
-              ) : Container(),
+              ),
               Container(
                 padding: const EdgeInsets.only(top: 8.0, left: 24.0),
                 width: double.infinity,

@@ -25,10 +25,18 @@ class Blog extends StatelessWidget {
               ),
             ),
             PostTop(),
-            LargePostLink(margins: {'l': 0.0,'t': 4.0, 'r': 0.0, 'b': 4.0},),
-            LargePostLink(margins: {'l': 0.0,'t': 4.0, 'r': 0.0, 'b': 4.0},),
-            LargePostLink(margins: {'l': 0.0,'t': 4.0, 'r': 0.0, 'b': 4.0},),
-            LargePostLink(margins: {'l': 0.0,'t': 4.0, 'r': 0.0, 'b': 4.0},),
+            LargePostLink(
+              margins: const {'l': 0.0,'t': 4.0, 'r': 0.0, 'b': 4.0},
+            ),
+            LargePostLink(
+              margins: const {'l': 0.0,'t': 4.0, 'r': 0.0, 'b': 4.0},
+            ),
+            LargePostLink(
+              margins: const {'l': 0.0,'t': 4.0, 'r': 0.0, 'b': 4.0},
+            ),
+            LargePostLink(
+              margins: const {'l': 0.0,'t': 4.0, 'r': 0.0, 'b': 4.0},
+            ),
           ],
         )
       ),
