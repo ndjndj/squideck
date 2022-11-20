@@ -17,9 +17,9 @@ class Welcome extends StatelessWidget {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.start,
             children: [
-              LargePostLink(margins: const {'l':20,'t':100,'r':20,'b': 20},),
-              LargeProductLink(),
-              LargeAboutLink()
+              LargePostLink(margins: const {'l': 4,'t': 20,'r': 4,'b': 4},),
+              LargeProductLink(margins: const {'l': 4,'t': 0,'r': 4,'b': 4},),
+              LargeAboutLink(margins: const {'l': 4,'t': 0,'r': 4,'b': 4},)
             ]
           ),
         ),
