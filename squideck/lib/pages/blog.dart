@@ -68,15 +68,14 @@ class Blog extends StatelessWidget {
                     children: [
                       Container(
                         margin: const EdgeInsets.only(right: 8.0),
-                        child: Text(
+                        child: const Text(
                           'Posted by ndj',
                           style: TextStyle(
                             fontSize: 14.0
                           ),
                         ),
                       ),
-
-                      Text(
+                      const Text(
                         '2022/10/31 12:31',
                         style: TextStyle(
                           fontSize: 14.0
