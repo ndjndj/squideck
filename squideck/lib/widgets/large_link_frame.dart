@@ -7,13 +7,15 @@ class LargeLinkFrame extends StatelessWidget {
   List<Widget> frameChild;
   String backgroundImage;
   Map<String, double> margins;
+  double height;
 
   LargeLinkFrame(
     {
       super.key,
       required this.frameChild,
       required this.backgroundImage,
-      this.margins = const {'l': 20.0, 't': 20, 'r': 20, 'b': 20}
+      this.margins = const {'l': 20.0, 't': 20, 'r': 20, 'b': 20},
+      this.height = 300,
     }
   );
 
@@ -22,7 +24,7 @@ class LargeLinkFrame extends StatelessWidget {
 
     return Container(
       width: double.infinity,
-      height: 300,
+      height: height,
       decoration: const BoxDecoration(
         borderRadius: BorderRadius.all(Radius.circular(10)),
         color: Color(0xFF333333),
