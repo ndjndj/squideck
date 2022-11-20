@@ -29,13 +29,13 @@ class Blog extends StatelessWidget {
             PostLink(
               margins: const {'l': 0.0,'t': 4.0, 'r': 0.0, 'b': 4.0},
             ),
-            LargePostLink(
+            PostLink(
               margins: const {'l': 0.0,'t': 4.0, 'r': 0.0, 'b': 4.0},
             ),
-            LargePostLink(
+            PostLink(
               margins: const {'l': 0.0,'t': 4.0, 'r': 0.0, 'b': 4.0},
             ),
-            LargePostLink(
+            PostLink(
               margins: const {'l': 0.0,'t': 4.0, 'r': 0.0, 'b': 4.0},
             ),
           ],
