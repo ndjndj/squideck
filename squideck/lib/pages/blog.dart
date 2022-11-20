@@ -16,7 +16,7 @@ class Blog extends StatelessWidget {
               'Blog posts',
               style: TextStyle(
                 color: CustomTheme.instance.dark,
-                fontSize: 36,
+                fontSize: 60,
               )
             ),
           ),
@@ -44,6 +44,7 @@ class Blog extends StatelessWidget {
                   ),
                 ),
                 Container(
+                  margin: const EdgeInsets.only(left: 4.0),
                   width: double.infinity,
                   child: const Text(
                     'When my muscles say "No", I say "Yes".',
