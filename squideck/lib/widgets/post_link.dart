@@ -28,18 +28,7 @@ class PostLink extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.start,
             children: [
               Container(
-                alignment: Alignment.bottomLeft,
-                padding: const EdgeInsets.only(top: 8.0, left: 16.0),
-                child: Text(
-                  'Post',
-                  style: TextStyle(
-                    color: CustomTheme.instance.letter,
-                    fontSize: 60
-                  ),
-                ),
-              ),
-              Container(
-                padding: const EdgeInsets.only(top: 8.0, left: 24.0),
+                padding: const EdgeInsets.only(top: 24.0, left: 24.0),
                 width: double.infinity,
                 child: Text(
                   'When my muscles say "No", I say "Yes".',

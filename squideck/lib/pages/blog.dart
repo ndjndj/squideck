@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:squideck/widgets/large_post_link.dart';
+import 'package:squideck/widgets/post_link.dart';
 
 import 'package:squideck/widgets/post_top.dart';
 import 'package:squideck/constants/custom_theme.dart';
@@ -25,7 +26,7 @@ class Blog extends StatelessWidget {
               ),
             ),
             PostTop(),
-            LargePostLink(
+            PostLink(
               margins: const {'l': 0.0,'t': 4.0, 'r': 0.0, 'b': 4.0},
             ),
             LargePostLink(
