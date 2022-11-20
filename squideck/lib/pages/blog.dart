@@ -33,7 +33,10 @@ class Blog extends StatelessWidget {
               children: [
                 Container(
                   height: 400,
-                  decoration: BoxDecoration(
+                  decoration: const BoxDecoration(
+                    borderRadius: BorderRadius.all(
+                      Radius.circular(10.0),
+                    ),
                     image: DecorationImage(
                       image: NetworkImage('assets/squid.png'),
                       fit: BoxFit.fitWidth
