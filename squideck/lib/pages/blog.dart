@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-
+import 'package:squideck/constants/custom_theme.dart';
 
 class Blog extends StatelessWidget {
 
@@ -10,11 +10,12 @@ class Blog extends StatelessWidget {
       child: Column(
         children: [
           Container(
-            margin: const EdgeInsets.fromLTRB(0.0, 0.0, 0.0, 16.0),
+            margin: const EdgeInsets.fromLTRB(0.0, 0.0, 0.0, 8.0),
             width: double.infinity,
-            child: const Text(
+            child: Text(
               'Blog posts',
               style: TextStyle(
+                color: CustomTheme.instance.letter,
                 fontSize: 36,
               )
             ),
