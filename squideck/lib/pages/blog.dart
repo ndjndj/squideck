@@ -32,7 +32,13 @@ class Blog extends StatelessWidget {
             child: Column(
               children: [
                 Container(
-                  child: Image.network('assets/squid.png')
+                  decoration: BoxDecoration(
+                    image: DecorationImage(
+                      image: NetworkImage('assets/squid.png'),
+                      fit: BoxFit.fitWidth
+                    )
+                  ),
+
                 ),
                 Container(),
                 Container(),
