@@ -31,19 +31,21 @@ class PostTop extends StatelessWidget {
             Container(
               margin: const EdgeInsets.only(left: 4.0, top: 16, bottom: 8.0),
               width: double.infinity,
-              child: const Text(
+              child: Text(
                 'When my muscles say "No", I say "Yes".',
                 style: TextStyle(
                   fontSize: 36,
+                  color: CustomTheme.instance.letter,
                 ),
               ),
             ),
             Container(
               margin: const EdgeInsets.only(left: 32.0, right: 32.0, bottom: 16.0),
-              child: const Text(
+              child: Text(
                 'TextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextText\nxtTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextxtTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextText',
                 style: TextStyle(
-                  fontSize: 24
+                  fontSize: 24,
+                  color: CustomTheme.instance.letter,
                 ),
               ),
             ),
@@ -53,17 +55,19 @@ class PostTop extends StatelessWidget {
                 children: [
                   Container(
                     margin: const EdgeInsets.only(right: 8.0),
-                    child: const Text(
+                    child: Text(
                       'Posted by ndj',
                       style: TextStyle(
-                        fontSize: 14.0
+                        fontSize: 14.0,
+                        color: CustomTheme.instance.letter,
                       ),
                     ),
                   ),
-                  const Text(
+                  Text(
                     '2022/10/31 12:31',
                     style: TextStyle(
-                      fontSize: 14.0
+                      fontSize: 14.0,
+                      color: CustomTheme.instance.letter,
                     ),
                   ),
                 ],
