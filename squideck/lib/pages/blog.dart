@@ -15,7 +15,7 @@ class Blog extends StatelessWidget {
             child: Text(
               'Blog posts',
               style: TextStyle(
-                color: CustomTheme.instance.letter,
+                color: CustomTheme.instance.dark,
                 fontSize: 36,
               )
             ),
