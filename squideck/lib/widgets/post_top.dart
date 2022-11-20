@@ -11,7 +11,7 @@ class PostTop extends StatelessWidget {
       decoration: BoxDecoration(
         color: CustomTheme.instance.dark,
         borderRadius: const BorderRadius.all(
-          Radius.circular(10.0),
+          Radius.circular(4.0),
         ),
       ),
       child: Column(
@@ -21,7 +21,7 @@ class PostTop extends StatelessWidget {
               width: double.infinity,
               decoration: const BoxDecoration(
                 borderRadius: BorderRadius.all(
-                  Radius.circular(10.0),
+                  Radius.circular(4.0),
                 ),
                 image: DecorationImage(
                   image: NetworkImage('assets/squid.png'),
