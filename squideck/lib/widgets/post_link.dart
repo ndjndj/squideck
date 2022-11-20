@@ -51,19 +51,31 @@ class PostLink extends StatelessWidget {
                   maxLines: 3,
                 ),
               ),
-            ],
-          ),
-          Container(
-            alignment: Alignment.topRight,
-            padding: const EdgeInsets.only(top: 16.0, left: 36.0, right: 36.0),
-            width: double.infinity,
-            child: Text(
-              '2022/12/24 12:04',
-              style: TextStyle(
-                color: CustomTheme.instance.letter,
-                fontSize: 24
+              Container(
+                child: Row(
+                  mainAxisAlignment: MainAxisAlignment.end,
+                  children: [
+                    Container(
+                      margin: const EdgeInsets.only(right: 8.0),
+                      child: Text(
+                        'Posted by ndj',
+                        style: TextStyle(
+                          fontSize: 14.0,
+                          color: CustomTheme.instance.letter,
+                        ),
+                      ),
+                    ),
+                    Text(
+                      '2022/10/31 12:31',
+                      style: TextStyle(
+                        fontSize: 14.0,
+                        color: CustomTheme.instance.letter,
+                      ),
+                    ),
+                  ],
+                ),
               ),
-            ),
+            ],
           ),
         ]
       )
