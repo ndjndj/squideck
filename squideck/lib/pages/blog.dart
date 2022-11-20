@@ -54,7 +54,7 @@ class Blog extends StatelessWidget {
                   ),
                 ),
                 Container(
-                  margin: const EdgeInsets.only(left: 32.0, right: 32.0),
+                  margin: const EdgeInsets.only(left: 32.0, right: 32.0, bottom: 16.0),
                   child: const Text(
                     'TextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextText\nxtTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextxtTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextText',
                     style: TextStyle(
@@ -62,7 +62,29 @@ class Blog extends StatelessWidget {
                     ),
                   ),
                 ),
-                Container()
+                Container(
+                  child: Row(
+                    mainAxisAlignment: MainAxisAlignment.end,
+                    children: [
+                      Container(
+                        margin: const EdgeInsets.only(right: 8.0),
+                        child: Text(
+                          'Posted by ndj',
+                          style: TextStyle(
+                            fontSize: 14.0
+                          ),
+                        ),
+                      ),
+
+                      Text(
+                        '2022/10/31 12:31',
+                        style: TextStyle(
+                          fontSize: 14.0
+                        ),
+                      ),
+                    ],
+                  ),
+                )
               ]
             ),
           )
