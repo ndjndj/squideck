@@ -21,9 +21,14 @@ class Blog extends StatelessWidget {
             ),
           ),
           Container(
-            color:Color(0xFFFAFAFA),
             width: double.infinity,
             height: 400,
+            decoration: BoxDecoration(
+              color:Color(0xFFFAFAFA),
+              borderRadius: BorderRadius.all(
+                Radius.circular(10.0)
+              ),
+            ),
             child: const Center(
               child: Text('post1')
             ),
