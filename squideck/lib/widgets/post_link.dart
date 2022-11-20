@@ -11,7 +11,7 @@ class PostLink extends StatelessWidget {
   PostLink(
     {
       super.key,
-      this.margins = const {'l': 20, 't': 20, 'r': 20, 'b': 20},
+      this.margins = const {'l': 4, 't': 4, 'r': 4, 'b': 4},
     }
   );
 

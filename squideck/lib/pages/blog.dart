@@ -26,18 +26,11 @@ class Blog extends StatelessWidget {
               ),
             ),
             PostTop(),
-            PostLink(
-              margins: const {'l': 0.0,'t': 4.0, 'r': 0.0, 'b': 4.0},
-            ),
-            PostLink(
-              margins: const {'l': 0.0,'t': 4.0, 'r': 0.0, 'b': 4.0},
-            ),
-            PostLink(
-              margins: const {'l': 0.0,'t': 4.0, 'r': 0.0, 'b': 4.0},
-            ),
-            PostLink(
-              margins: const {'l': 0.0,'t': 4.0, 'r': 0.0, 'b': 4.0},
-            ),
+            PostLink(),
+            PostLink(),
+            PostLink(),
+            PostLink(),
+            PostLink(),
           ],
         )
       ),
