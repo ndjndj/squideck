@@ -44,12 +44,12 @@ class Blog extends StatelessWidget {
                   ),
                 ),
                 Container(
-                  margin: const EdgeInsets.only(left: 4.0),
+                  margin: const EdgeInsets.only(left: 4.0, top: 16),
                   width: double.infinity,
                   child: const Text(
                     'When my muscles say "No", I say "Yes".',
                     style: TextStyle(
-                      fontSize: 24,
+                      fontSize: 36,
                     ),
                   ),
                 ),
