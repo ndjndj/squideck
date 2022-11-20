@@ -7,6 +7,7 @@ class PostTop extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       padding: const EdgeInsets.fromLTRB(16.0, 16.0, 16.0, 4.0),
+      margin: const EdgeInsets.only(bottom: 4.0),
       decoration: BoxDecoration(
         color: CustomTheme.instance.dark,
         borderRadius: const BorderRadius.all(
